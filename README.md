@@ -77,3 +77,19 @@ Lets put all bible character in a timeline. Requests your help to make it succes
    |--Heli
    |--Joseph
    |--Jesus
+
+
+![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
+<details> 
+<summary></summary>
+Geneology-graph
+  digraph G {
+    aize ="4,4";
+    GOD [shape=box];
+    edge [color=red];
+    GOD -> Adam [weight=8];
+    Adam -> Seth;
+    Seth -> Enosh [style=dotted];
+  }
+Geneology-graph
+</details>
